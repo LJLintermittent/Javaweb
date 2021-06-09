@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<script type="text/javascript">
+    function onchangeFun() {
+        alert("英雄已选择");
+
+    }
+    window.onload = function () {
+        var id = document.getElementById("01");
+        id.onchange =function () {
+            alert("英雄已选择");
+
+        }
+
+    }
+
+
+</script>
+<body>
+
+<select onchange="onchangeFun()">
+    <option value="">请选择你的英雄</option>
+    <option value="">末日铁拳</option>
+    <option value="">源氏</option>
+    <option value="">黑百合</option>
+    <option value="">半藏</option>
+</select>
+
+<select id="01">
+    <option value="">请选择你的英雄</option>
+    <option value="">麦克雷</option>
+    <option value="">猎空</option>
+    <option value="">艾什</option>
+    <option value="">路霸</option>
+</select>
+
+</body>
+</html>

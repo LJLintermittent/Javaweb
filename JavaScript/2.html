@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            var id = document.getElementById("01");
+            id.onblur = function () {
+                console.log("动态注册失去焦点事件");
+
+            }
+
+        }
+
+        function onblurFun() {
+            console.log("静态注册失去焦点事件");
+
+        }
+    </script>
+</head>
+<body>
+用户名: <input type="text" onblur="onblurFun();"><br>
+密码:   <input type="text" id="01"><br>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+java.sql.SQLException:
+You have an error in your SQL syntax;
+check the manual that corresponds to your MySQL server version for the right syntax to use near '`author`='Vç¤¾' `price`=999 `sales`=200 `stock`=50 `img_path`='static/img/defaul' at line 1 Query:
+UPDATE t_book SET `NAME`=? `author`=? `price`=? `sales`=? `stock`=? `img_path`=? WHERE `id` = ? Parameters: [战地五, V社, 999, 200, 50, static/img/default.jpg, 21]

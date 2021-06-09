@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        window.onload =function () {
+            var id01 = document.getElementById("01");
+            var id02 = document.getElementById("02");
+            id02.onclick = function(){
+                alert("李佳乐")
+            }
+            id01.onclick = function () {
+            alert("动态注册的onclick事件");
+            }
+        }
+    </script>
+</head>
+
+<body>
+<button id="02">按钮二</button>
+<button id ="01">按钮一</button>
+</body>
+</html>
